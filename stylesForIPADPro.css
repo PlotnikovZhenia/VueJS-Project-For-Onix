@@ -1,0 +1,95 @@
+@media only screen and (min-width: 1024px) and (max-width: 1224px) {
+    /* стили */
+    .component {
+        display: block;
+        width: 100%;
+    }
+    .user-information {
+        background-color: black;
+        width: 100%;
+    }
+    .menu-information{
+        width: 100%;
+    }
+    .user-information{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .body-box {
+        background-color: Lavender;
+        padding-top: 100px;
+        padding-bottom: 400px;
+    }
+    .box-component {
+        margin: auto;
+        padding-top: 5px;
+        padding-bottom: 80px;
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 600px;
+        height: 500px;
+        background-color: white;
+    }
+    .left-navbar {
+        margin-left: 30px;
+        padding: 0;
+        list-style-type: none;
+        width: 100px;
+        display: inline-flex;
+    }
+}
+    @media only screen and (min-width: 1366px) and (min-height: 1024px) and (orientation:landscape) {
+        /* стили */
+        .component {
+            display: block;
+            width: 100%;
+        }
+        .user-information {
+            background-color: black;
+            width: 100%;
+        }
+        .infomation-user {
+            display: flex;
+            justify-content: space-around;
+            margin: 16px 75px;
+            padding: 0px 30px;
+            background-color: #4F4F4F;
+        }
+        .table-counts {
+            display: flex;
+            margin-left: 75px;
+            margin-bottom: 31px;
+        }
+        .menu-left-navbar {
+            margin-left: 75px;
+        }
+        .menu-information{
+            width: 100%;
+        }
+        .user-information{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .body-box {
+            background-color: Lavender;
+            padding-top: 100px;
+            padding-bottom: 400px;
+        }
+        .box-component {
+            margin: auto;
+            padding-top: 5px;
+            padding-bottom: 80px;
+            padding-left: 30px;
+            padding-right: 30px;
+            width: 600px;
+            height: 500px;
+            background-color: white;
+        }
+        .left-navbar {
+            margin-left: 30px;
+            padding: 0;
+            list-style-type: none;
+            width: 100px;
+            display: inline-flex;
+        }
+    }

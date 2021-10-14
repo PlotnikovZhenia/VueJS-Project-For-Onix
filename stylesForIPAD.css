@@ -1,0 +1,49 @@
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* стили */
+    .component {
+        display: block;
+        width: 100%;
+    }
+    .user-information {
+        background-color: black;
+        width: 100%;
+    }
+    .menu-information{
+        width: 100%;
+    }
+    .user-information{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .body-box {
+        background-color: Lavender;
+        padding-top: 50px;
+        padding-bottom: 130px;
+    }
+    .box-component {
+        margin:auto;
+        padding-top: 5px;
+        padding-bottom: 97px;
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 600px;
+        background-color: white;
+    }
+    .left-navbar {
+        margin-left: 30px;
+        padding: 0;
+        list-style-type: none;
+        width: 700px;
+        display: flex;
+        justify-content: space-around;
+    }
+    h3:after {
+        content: "";
+        display: block;
+        background: url(Symbol3.svg) no-repeat;
+        width: 20px;
+        height: 20px;
+        margin-left: 30px;
+        float: right;
+    }
+}

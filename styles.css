@@ -11,6 +11,24 @@
     justify-content: space-between;
     margin: 30px;
 }
+h3:before {
+    content: "";
+    display: block;
+    background: url("Symbol2.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    float: left;
+   }
+   h3:after {
+    content: "";
+    display: block;
+    background: url("Symbol3.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-left: 70px;
+    float: right;
+   }
 .information-image-name {
     display: flex;
 }
@@ -18,7 +36,7 @@
     margin: 0;
     padding: 5px;
 }
-.information-about-name h4 {
+.information-about-name h3 {
     color: white;
     margin: 0;
     padding: 5px;
@@ -78,7 +96,7 @@
     margin-right: 10px;
 }
 .menu-header-communication-images>img{
-width:25%;
+width:40px;
 padding: 5px;
 border-radius: 100px; 
 }
@@ -111,6 +129,15 @@ border-radius: 100px;
     border-radius:20%; 
     width: 100px;
     padding: 5px;
+}
+.menu-header-button-chat::before {
+    content: "";
+    display: block;
+    background: url("Symbol7.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    float: left;
 }
 .menu-navbar{
     margin-top: 0px;
@@ -229,7 +256,7 @@ border-radius: 100px;
     padding-bottom: 97px;
     padding-left: 30px;
     padding-right: 30px;
-    width: 730px;
+    width: 700px;
     background-color: white;
 }
 .box-component-table-information {
@@ -255,7 +282,17 @@ border-radius: 100px;
     height: 50px;
     padding-top: 20px;
 }
-.box-component-table-information-message-details-text {
+.box-component-table-information-message-details-text-first {
+    margin: 0;
+    padding: 5px;
+    width: 461px;
+}
+.box-component-table-information-message-details-text-third {
+    margin: 0;
+    padding: 5px;
+    width: 461px;
+}
+.box-component-table-information-message-details-text-second {
     margin: 0;
     padding: 5px;
     width: 461px;
@@ -267,7 +304,34 @@ border-radius: 100px;
     display: flex;
 }
 .box-component-table-information-message-imagesOfUser>img{
-    width: 30%;
+    width: 120px;
     margin-right: 10px;
     border-radius: 20px;
 }
+.box-component-table-information-message-details-text-first h4::before {
+    content: "";
+    display: block;
+    background: url("Symbol9.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    float: left;
+   }
+   .box-component-table-information-message-details-text-second h4::before {
+    content: "";
+    display: block;
+    background: url("Symbol10.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    float: left;
+   }
+   .box-component-table-information-message-details-text-third h4::before {
+    content: "";
+    display: block;
+    background: url("Symbol11.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    float: left;
+   }
