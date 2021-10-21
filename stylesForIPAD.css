@@ -1,5 +1,14 @@
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     /* стили */
+    .WindowTasksOpen {
+        position:fixed;
+        padding: 20px;
+        background:grey; 
+        top:40%; 
+        left: 30%;
+        margin:auto;
+        text-align:center;
+    }
     .component {
         display: block;
         width: 100%;

@@ -1,3 +1,39 @@
+.WindowTasksOpen {
+    position:fixed;
+    padding: 20px;
+    background:grey; 
+    top:40%; 
+    left: 40%;
+    margin:auto;
+    text-align:center;
+}
+.WindowTasksOpen>div{
+    display: flex;
+    justify-content: space-around;
+}
+.WindowTasksOpen>div>p {
+    cursor: pointer;
+
+}
+.WindowTasksOpen>div>p:first-child:hover {
+    background-color: green; 
+ }
+ .WindowTasksOpen>div>p:last-child:hover {
+    background-color: red; 
+ }
+ .notification {
+    display:flex;
+    width: 150px;
+ }
+ #notificationIndex {
+     background: orange;
+     padding: 5px;
+     margin-left: 15px;
+     color: black;
+     font-weight: bold;
+     border-radius: 100%;
+
+ }
 .component {
     display: flex;
     width: 100%;
