@@ -24,6 +24,7 @@ navbar.onclick = function(event) {
       }
       a.classList.add('navbar-active');
     }
+    //completed tasks
     function OpenWindowTask() {
       let messeage=document.createElement('div');
       messeage.className="WindowTasksOpen";
