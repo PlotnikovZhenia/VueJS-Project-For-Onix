@@ -35,7 +35,7 @@ navbar.onclick = function(event) {
       let elemOfComplete=document.getElementById('resultCompletedTasks');
       let elemOfOpenTasks=document.getElementById('resultOpenTasks');
       let messeage=document.querySelector('.WindowTasksOpen')
-      messeage.className="";
+      messeage.remove();
       if(elemOfOpenTasks.innerHTML>0){
         elemOfOpenTasks.innerHTML=elemOfOpenTasks.innerHTML-1;
         elemOfComplete.innerHTML++;
@@ -44,16 +44,29 @@ navbar.onclick = function(event) {
 
     function CloseWindowTask() {
       let messeage=document.querySelector('.WindowTasksOpen')
-      messeage.className="";
+      messeage.remove();
     }
-    //array of images-notification
-    function indexOfImage(src) {
+    //new
+      let array_images=['Symbol12.jpg', 'Symbol13.jpg','Symbol14.jpg','Symbol15.jpg'];
+      for(let i=0; i<array_images.length;i++) {
+        let box=document.querySelector('.box-component-table-information-message-imagesOfUser');
+        let image=document.createElement('img');
+        image.src=array_images[i];
+        image.alt="done";
+        image.onclick=function(){
+          notificationIndex.innerHTML=i;
+        }
+        box.append(image);
+      }
+      
+      //array of images-notification
+    /*function indexOfImage(src) {
       let array_images=['Symbol12.jpg', 'Symbol13.jpg','Symbol14.jpg','Symbol15.jpg'];
       for(let i=0; i<array_images.length;i++) {
         if(src.endsWith(array_images[i])){
           notificationIndex.innerHTML=i+1;
         }
       }
-    }
+    }*/
 
 
